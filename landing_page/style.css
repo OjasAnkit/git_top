@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.subText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    padding: 20px;
+    background-color: #1F2937;
+}
+
+.headerContent {
+    margin: 0px 200px 0px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.headerLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex-grow: 7;
+}
+
+.headerText {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.hero {
+    margin: 0px 200px 0px 200px;
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 17%;
+}
+
+.heroMainText {
+    font-size: 62px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+img {
+    width: 35vw;
+    height: 15vw;
+}
+
+button {
+    font-size: 16px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 10px;
+    border: 0;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+.info {
+    margin: 50px 300px 75px 300px;
+}
+
+.infoHeader {
+    font-size: 36px;
+    padding: 20px 50px 50px 50px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.infoImage {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    /* flex-wrap: wrap; */
+}
+
+.infoSquare {
+    height: 200px;
+    border: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 20px;
+}
+
+.infoText {
+    color: #1F2937;
+    text-align: center;
+    margin-top: 10px;
+    /* text-justify: inter-word; */
+}
+
+.infoSub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.quote {
+    padding: 150px 350px 150px 350px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quoteAuthor {
+    font-size: 24px;
+    font-style: normal;
+    color: #1F2937;
+    font-weight: 800;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.ctaBox {
+    margin: 100px 250px 100px 250px;
+    padding: 50px 150px 50px 150px;
+    background-color: #3882F6;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctaButton {
+    width: 120px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5px;
+    border: 2px;
+    border-style: solid;
+    border-color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 40px;
+    text-align: center;
+}
