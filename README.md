@@ -1,2 +1,2 @@
-# git_top
-"Hello Odin!"
+# Project: Landing Page | Foundations Course
+### "Hello Odin!"
